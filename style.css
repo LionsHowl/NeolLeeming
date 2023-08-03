@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+nav{
+    background-color: #e40c14;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+}
+nav img{
+    height: 23px;
+    width: 100%;
+}
+a:hover{
+    color: yellow;
+    font-weight: 700;
+}
+
+.hero {
+    background-image: url("https://channellife.co.nz/uploads/story/2016/08/04/Wide_store_shot_inside.webp");
+    height: 75vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5%;
+}
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: red;
+    font-weight: 700;
+}
+p{
+    padding-bottom: 10px;
+}
+.card{
+    width: 300px;
+    box-shadow: 5px 10px 8px #888888;
+    border-bottom: 2px solid red;
+    margin: 3%;
+}
+.card img{
+    width: 100%;
+}
+.margin{
+    margin: 20px;
+}
+.margin a{
+    padding: 10px 50px;
+    border: 2px solid red;
+    border-radius: 25px;
+    color: red;
+    text-decoration: none;
+}
+.wrap {
+    display: flex;
+    text-align: center;
+    width: 300px;
+    justify-content: space-between;
+}
+@media only screen and (max-width:925px) {
+    .wrap{
+        display: block;
+    }
+}
